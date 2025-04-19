@@ -9,9 +9,13 @@ After providing your explanation, output your final verdict by strictly using on
 "[[0]]" if AI-generated answer is "incorrect".
 '''
 
-QUERY2DOC = 'Write a passage that answers the given query: {Query}'
+QUERY2DOC = '''
+Write a passage that answers the given query: {Query}
+'''
     
-QUERY2EXPANSION = 'Write a list of keywords for the following query: {Query}'
+QUERY2EXPANSION = '''
+Write a list of keywords for the following query: {Query}
+'''
     
 GAQR_TEACHER = '''
 You are a search engine. Below are a query and its answer:
