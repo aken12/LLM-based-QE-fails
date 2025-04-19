@@ -18,7 +18,7 @@ Experimental Details for “LLM-based Query Expansion Fails for Unfamiliar and A
     - [GaQR: An Efficient Generation-augmented Question Rewriter](https://dl.acm.org/doi/10.1145/3627673.3679930)  
     - We performed our own hyperparameter tuning.  
     - Training data: 5,000 randomly sampled MS MARCO train examples + 2,863 MIRACL train examples (7,863 total)  
-    - Generate 20 rewrites per query with GPT (gpt-3.5-turbo-0125, temperature = 1.0), then filter by improvement over BM25 (Recall@100)  
+    - Generate 20 rewrites per query with GPT (gpt-3.5-turbo-0125, temperature = 1.0), then filter by effectiveness in BM25 (Recall@100)  
     - Train [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) on the filtered data using:  
       - LoRA (alpha = 32, r = 16)  
       - learning_rate = 1e-4  
