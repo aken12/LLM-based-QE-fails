@@ -18,13 +18,13 @@ You are a search engine. Below are a query and its answer:
 query: {Query}
 answer: {Answer}
 In order to obtain information corresponding to this answer, please provide at least three rewritten queries. Do not answer the rewritten queries. Don't output any words other than the rewritten queries.
-''' # https://github.com/youngbeauty250/GaQR/blob/main/
+''' # Based on: https://github.com/youngbeauty250/GaQR/blob/main/
 
 GAQR_STUDENT = '''
 You are a search engine. In order to obtain information for answering the query, please provide at least three rewritten queries.
 Do not answer the rewritten queries. Don't output any words other than the rewritten queries. 
 Below are a query: {Query}
-'''
+''' # Based on: https://github.com/youngbeauty250/GaQR/blob/main/
 
 Q2D_PRF = """
 Write a passage that answers the given query based on the context:
