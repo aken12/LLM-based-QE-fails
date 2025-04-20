@@ -3,7 +3,7 @@ Experimental Details for “LLM-based Query Expansion Fails for Unfamiliar and A
 
 ## Query Expansion
 - **LLMs used**  
-  - gpt-3.5-turbo-0125  
+  - [gpt-3.5-turbo-0125](https://platform.openai.com/docs/models/gpt-3.5-turbo)  
   - [meta-llama/Meta-Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)  
   - [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)  
 - **Common settings**  
@@ -38,7 +38,7 @@ Experimental Details for “LLM-based Query Expansion Fails for Unfamiliar and A
     - [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132)  
     - [Evaluating Open-QA Evaluation](https://proceedings.neurips.cc/paper_files/paper/2023/file/f323d594aa5d2c68154433a131c07959-Paper-Datasets_and_Benchmarks.pdf)  
   - LLM configuration:  
-    - gpt-4-turbo-2024-04-09  
+    - [gpt-4-turbo-2024-04-09](https://platform.openai.com/docs/models)  
     - Temperature: 0  
   - Output labels:  
     - correct (2)  
